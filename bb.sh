@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# shellblog 🐚| A simple shell script to create and manage blog(s).
+# shellblog 🐚 | A simple _shell_ script to create and manage blog(s).
 # (C) Andrew Thiesen <andrew@thiesen.co>, 2023
 # https://github.com/dvwallin/bashblog-ng/contributors
 # (C) David Satime Wallin <david@dwall.in>, 2019, 2020, 2021, 2022 and contributors
@@ -32,6 +32,7 @@ global_variables() {
 
     # Your name
     global_author="John Smith"
+    #THIS WILL BE REPLACED WITH MASTODON IN A FUTURE RELEASE.
     # You can use twitter or facebook or anything for global_author_url
     # global_author_url="http://twitter.com/example"
     # Your email
@@ -52,13 +53,14 @@ global_variables() {
     # or change it to your own URL
     global_feedburner=""
 
+    # THIS WILL PROBABLY BE REMOVED IN A FUTURE VERSION.
     # Change this to your username if you want to use twitter for comments
-    global_twitter_username=""
+    # global_twitter_username=""
     # Set this to false for a Twitter button with share count. The cookieless version
     # is just a link.
-    global_twitter_cookieless="true"
+    # global_twitter_cookieless="true"
     # Default search page, where tweets more than a week old are hidden
-    global_twitter_search="twitter"
+    # global_twitter_search="twitter"
 
     # Set your github username here to display a github-corner linking to your github profile
     global_github_username=""
